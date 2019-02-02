@@ -100,3 +100,4 @@ refund_status: true
 
 //create_member();
 
+exports.memberSchema = memberSchema;
