@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const { reviewSchema, Review } = require('./review.js');
-//const { Review } = require('./review.js');
 
 const memberSchema = new mongoose.Schema({
     name: {
@@ -73,21 +72,21 @@ async function create_member()
 {
     const member = new Member({
         name: "Anoop",
-email: "anup@gmail.com",
-phone: 12345,
-room_no: 123,
-works_for: "Terralogic",
-permanent_address: "KG Nagar 1st main road, Bangalore-19",
-rent_due: true,
-remainining_amount: 1000,
-presence_status: "Present",
-review: new Review({
-    food_quality: 9,
-    water_quality: 9,
-    hygiene: 8,
-    room_cleanliness: 6,
-    pg_cleanliness: 7,
-    comments: "can be better"
+        email: "anup@gmail.com",
+        phone: 12345,
+        room_no: 123,
+        works_for: "Terralogic",
+        permanent_address: "KG Nagar 1st main road, Bangalore-19",
+        rent_due: true,
+        remainining_amount: 1000,
+        presence_status: "Present",
+        review: new Review({
+        food_quality: 9,
+        water_quality: 9,
+        hygiene: 8,
+        room_cleanliness: 6,
+        pg_cleanliness: 7,
+        comments: "can be better"
 }),
 vacant_rooms: 12,
 maintainance_fee: 1200,
