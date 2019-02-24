@@ -13,10 +13,10 @@ The project will have a register/login page for guests and admins with varying f
 •	Should be able to send out mails and messages to the members to remind the pg rent.
 •	Should be able to post the vacancies available in the PG in the home page
 
-	Guests
+	Members
 •	Should be able to view/book a new room in the current pg.
 •	Should be able to set reminders for paying the rent.
-•	Should be able to cancel the enrolment from the current pg and book another.
+•	Should be able to cancel the enrollment from the current pg and book another.
 •	Should be able to give feedback on the food/room/pg on a daily basis.
 •	Should be able to pay the rent via gateway and generate the receipt for the same
 •	Should be able to refer their friends as soon as they see the vacancy announcement
